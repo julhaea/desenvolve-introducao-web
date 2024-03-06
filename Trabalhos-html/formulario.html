@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de Satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de Satisfação</h1>
+        <form method="post" action="">
+            <section>
+            <h2>Dados pessoais</h2>
+            <p>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome"/>
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="e-mail" id="e-mail"/>
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone"/>
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option>Acre</option>
+                    <option>Alagoas</option>
+                    <option>Amapá</option>
+                    <option>Amazonas</option>
+                    <option>Bahia</option>
+                    <option>Ceará</option>
+                    <option>Distrito Federal</option>
+                    <option>Espírito Santo</option>
+                    <option>Goiás</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option>
+                    <option>Minas Gerais</option>
+                    <option>Pará</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio Grande do Norte</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+                </select>
+            </p>
+            </section>
+            <section>
+            <h2>Avaliação</h2>
+            <p>
+                Por onde você realizou a compra?
+                <p>
+                <input type="radio" id="Loja-física" name="compra">
+                <label for="Loja-física">Loja física</label>
+                </p>
+                <p>
+                <input type="radio" id="site" name="compra">
+                <label for="site">Site</label>
+                </p>
+                <p>
+                   <input type="radio" id="Whatsapp" name="compra">
+                   <label for="Whatsapp">Whatsapp</label> 
+                </p>
+            </p>
+            <p>
+                Que avaliação você dá para a qualidade do nosso produto?
+                <p>
+                <input type="radio" id="pessimo" name="qualidade">
+                <label for="pessimo">Péssimo</label>
+                </p>
+                <p>
+                <input type="radio" id="ruim" name="qualidade">
+                <label for="ruim">Ruim</label>
+                </p>
+                <p>
+                   <input type="radio" id="ok" name="qualidade">
+                   <label for="ok">Ok</label> 
+                </p>
+                <p>
+                    <input type="radio" id="bom" name="qualidade">
+                    <label for="bom">Bom</label> 
+                 </p>
+                 <p>
+                    <input type="radio" id="otimo" name="qualidade">
+                    <label for="otimo">Ótimo</label> 
+                 </p>
+            </p>
+            <p>
+                Algo não te agradou na realização da compra?
+                <p>
+                    <label>
+                       <input type="checkbox"> Valor do produto
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox"> Tempo de entrega
+                    </label>
+                </p>
+                <p>
+                   <label>
+                    <input type="checkbox"> Valor do frete
+                   </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox"> Variedade dos produtos
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox"> Embalagem
+                    </label>
+                </p>
+            </p>
+            <p>
+                De 0 a 10, qual nota você dá para o nosso atendimento?
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+        </p>
+    </section>
+        <section>
+        <p>
+            <label>
+                <input type="checkbox"> Aceito o compartilhamento da minha resposta
+            </label>
+        </p>
+        </section>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+        </form>
+    </body>
+</html>
