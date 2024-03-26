@@ -1,0 +1,182 @@
+
+
+
+html{
+
+    max-width: 1280px;
+    min-width: 600px;
+    padding-left:10% ;
+    padding-right: 10%;
+    color:rgb(23, 23, 23);
+    background:#E3F5E1; 
+    font-size: 18px;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+#foto {
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width:220px;
+}  
+.texto-perfil {
+margin-top:50px;
+margin-left: 270px;
+   
+}
+header h1 {
+    position:relative;
+    top: 10px;
+    padding-top: 10px;
+}
+header {
+    color: rgb(23, 23, 23);
+    position: relative;
+    min-height: 250px;
+    height: fit-content;
+    background:rgb(241, 223, 115);
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    margin-top: -50px;
+    z-index: 1;
+    position:fixed;
+    display: flex;
+    width:80%;
+    justify-content: space-evenly;
+    background-color:rgb(247, 219, 64);
+
+}
+
+nav a  {
+    color:rgb(23, 23, 23);
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+#educacao, #perfil, #habilidades, #redes, #idiomas, #certificados {
+    height: 50px;
+}
+footer {
+    margin-bottom: -6px;
+    height: 60px;
+    align-items: center;
+    display:flex;
+    background-color:rgb(247, 219, 64);
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+#insta, #twitter, #github{
+    width:30px;
+    display:inline-block
+
+}
+a:hover{
+    color:#67b061;
+}
+footer a {
+    font-size: 18px;
+    position: relative;
+    top:-8px;
+    padding-left:10px;
+    color: rgb(23, 23, 23);
+    font-weight: bold;
+    text-decoration-line: none;
+}
+li {
+    list-style:circle;
+    padding-bottom: 20px;
+}
+.certificados img{
+    width: 500px;
+}
+.certificados section{
+
+text-align: center;
+display: inline-block;
+
+}
+
+#sep-certf{
+width: 100%;
+flex-direction: row;
+display: flex;
+justify-content: space-evenly;
+}
+@media screen and (max-width: 770px) {
+    html{
+       padding-left: 0%;
+       padding-right: 3%;
+    }
+    
+    main, header, footer {
+        margin-left:20%;
+    }
+    header h1{
+        font-size: 26px;
+    }
+    nav {
+        min-width: 100px;
+        width: 15%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    #foto{
+        display: inline-block;
+        width: 150px;
+    }
+    header{
+        width:fit-content;
+        margin-top: -100px;
+        height:fit-content;
+    }
+    .texto-perfil{
+        margin-left: 190px;
+    }
+    #tex {
+        padding-top: 30px;
+        margin-left: -170px;
+    }
+    .certificados img{
+        width: 500px;
+    }
+    .certificados section{
+    text-align: left;
+    display: block;
+    }
+    #sep-certf{
+        width: 100%;
+        flex-direction: column;
+       display: flex;
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
