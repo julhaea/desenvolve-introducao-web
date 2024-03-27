@@ -51,6 +51,7 @@ header {
 }
 
 nav {
+    
     margin-top: -50px;
     z-index: 1;
     position:fixed;
@@ -69,8 +70,8 @@ nav a  {
     text-decoration: none;
     font-weight: bold;
 }
-#educacao, #perfil, #habilidades, #redes, #idiomas, #certificados {
-    height: 50px;
+#educacao, #perfil, #habilidades, #idiomas, #certificados {
+    padding-top: 50px;
 }
 footer {
     margin-bottom: -6px;
@@ -103,6 +104,7 @@ li {
     padding-bottom: 20px;
 }
 .certificados img{
+    padding-bottom: 50px;
     width: 500px;
 }
 .certificados section{
