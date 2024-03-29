@@ -4,25 +4,25 @@
 html{
 
     max-width: 1280px;
-    min-width: 600px;
+    min-width: 550px;
     padding-left:10% ;
     padding-right: 10%;
     color:rgb(23, 23, 23);
-    background:#E3F5E1; 
     font-size: 18px;
+    background:#E3F5E1; 
     font-family: Geneva, Tahoma, sans-serif;
 }
 h1, h2, h3 {
     font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    font-size: 45px;
+    font-size: 3em;
 }
 h2{
-    font-size: 35px;
+    font-size: 2em;
 }
 h3{
-    font-size: 25px;
+    font-size: 1.5em;
 }
 #foto {
     position:absolute;
@@ -31,14 +31,12 @@ h3{
     width:220px;
 }  
 .texto-perfil {
-margin-top:50px;
-margin-left: 270px;
+margin-top:3em;
+margin-left: 15em;
    
 }
 header h1 {
-    position:relative;
-    top: 10px;
-    padding-top: 10px;
+    padding-top: 0.6rem
 }
 header {
     color: rgb(23, 23, 23);
@@ -46,13 +44,12 @@ header {
     min-height: 250px;
     height: fit-content;
     background:rgb(241, 223, 115);
-    padding-right: 5px;
-    padding-bottom: 5px;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 nav {
-    
-    margin-top: -50px;
+    margin-top: -2.7em;
     z-index: 1;
     position:fixed;
     display: flex;
@@ -71,11 +68,10 @@ nav a  {
     font-weight: bold;
 }
 #educacao, #perfil, #habilidades, #idiomas, #certificados {
-    padding-top: 50px;
+    padding-top: 2.7em;
 }
 footer {
-    margin-bottom: -6px;
-    height: 60px;
+    height: 3em;
     align-items: center;
     display:flex;
     background-color:rgb(247, 219, 64);
@@ -91,20 +87,19 @@ a:hover{
     color:#67b061;
 }
 footer a {
-    font-size: 18px;
     position: relative;
-    top:-8px;
-    padding-left:10px;
+    top:-0.45em;
+    padding-left:0.5em;
     color: rgb(23, 23, 23);
     font-weight: bold;
     text-decoration-line: none;
 }
 li {
     list-style:circle;
-    padding-bottom: 20px;
+    padding-bottom: 1.5em;
 }
 .certificados img{
-    padding-bottom: 50px;
+    padding-bottom: 2.7em;
     width: 500px;
 }
 .certificados section{
@@ -130,7 +125,10 @@ justify-content: space-evenly;
         margin-left:20%;
     }
     header h1{
-        font-size: 26px;
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2em;
     }
     nav {
         min-width: 100px;
@@ -140,7 +138,7 @@ justify-content: space-evenly;
         flex-direction: column;
     }
     nav a{
-        font-size: 14px;
+        font-size: 0.8em;
     }
     #foto{
         display: inline-block;
@@ -148,15 +146,15 @@ justify-content: space-evenly;
     }
     header{
         width:fit-content;
-        margin-top: -100px;
+        margin-top: -5em;
         height:fit-content;
     }
     .texto-perfil{
-        margin-left: 190px;
+        margin-left: 10.5em;
     }
     #tex {
-        padding-top: 30px;
-        margin-left: -170px;
+        padding-top: 1em;
+        margin-left: -9em;
     }
     .certificados img{
         width: 500px;
